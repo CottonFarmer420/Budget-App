@@ -1,0 +1,24 @@
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Deploy on all-inkl
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout and pull data
+        uses: appleboy/ssh-action@master
+        with:
+          host: w01c4ca9.kasserver.com
+          username: ssh-w0200171
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            source /www/htdocs/w0200171/bin/node/nvm.sh
+            cd /www/htdocs/w0200171/web
+            git pull
+            composer install
+            npm run build
