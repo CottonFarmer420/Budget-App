@@ -13,5 +13,6 @@
                 </div>
             </div>
         </div>
+        <h1>Willkommen Beim Budget-Planer!</h1>
     </div>
 </x-app-layout>
