@@ -12,7 +12,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/monat', function () {
-    return view('monatsformular');
+    return view('Monatsformular');
 })->middleware(['auth', 'verified'])->name('monatsformular');
 
 Route::get('/ziele', function () {
