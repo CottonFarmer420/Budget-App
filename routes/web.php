@@ -16,7 +16,7 @@ Route::get('/monat', function () {
 })->middleware(['auth', 'verified'])->name('monatsformular');
 
 Route::get('/ziele', function () {
-    return view('sparziele');
+    return view('Sparziele');
 })->middleware(['auth', 'verified'])->name('sparziele');
 
 Route::middleware('auth')->group(function () {
