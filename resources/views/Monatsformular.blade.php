@@ -9,7 +9,7 @@
         <h2 class="text-2xl font-bold mb-6 text-center">Finanzplanungsformular</h2>
         <form action="#" method="POST" class="space-y-4">
             <div>
-                <label class="block text-gray-700">Monatliches Nettoeinkommen (€)</label>
+                <label class="block text-gray-700">Monatliches Nettoeinkommen</label>
                 <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
             <div>
