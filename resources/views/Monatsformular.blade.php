@@ -25,19 +25,14 @@
                 <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
             <div>
+                <label class="block text-gray-700">Sparziel (Gegenstand, Investition, etc.)</label>
+                <input type="text" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
                 <label class="block text-gray-700">Bestehende Schulden (€)</label>
                 <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
             </div>
-            <div>
-                <label class="block text-gray-700">Finanzielle Ziele</label>
-                <select class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-                    <option>Sparen für Notgroschen</option>
-                    <option>Investieren in Aktien/ETFs</option>
-                    <option>Kredit/Schulden abbauen</option>
-                    <option>Hauskauf</option>
-                    <option>Ruhestand planen</option>
-                </select>
-            </div>
+
             <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Absenden</button>
         </form>
     </div>
