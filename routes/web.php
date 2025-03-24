@@ -17,6 +17,8 @@ Route::get('/monat', function () {
 })->middleware(['auth', 'verified'])->name('monatsformular');
 Route::get('/finance', [FinancesController::class, 'index'])->middleware(['auth'])->name('finance.index');
 Route::post('/finance', [FinancesController::class, 'store'])->name('finance.store');
+Route::delete('/finance/{finance}', [FinancesController::class, 'destroy'])
+    ->name('finance.destroy');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

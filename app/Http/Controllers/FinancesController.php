@@ -90,6 +90,13 @@ class FinancesController extends Controller
      */
     public function destroy(Finance $finance)
     {
-        //
+        $res = (new \App\Models\Finance)->delete($finance);
+
+        if ($res) {
+            return back()->with('success', 'Finance deleted successfully');
+        }
     }
+
+
+
 }
