@@ -11,8 +11,3 @@
 - Abos? (Netflix, Gym usw.)
 
 
-
-
-
-- **Ziele** (eigenes Formular für Sparziele und vllt mit loading bar wie viel man bereits hat)
-

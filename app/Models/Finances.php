@@ -11,8 +11,11 @@ class Finances extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name',
-        'email',
-        'password',
+        'monthly_income',
+        'fixed_costs',
+        'variable_costs',
+        'saving_amount',
+        'saving_target',
+        'debts',
     ];
 }
