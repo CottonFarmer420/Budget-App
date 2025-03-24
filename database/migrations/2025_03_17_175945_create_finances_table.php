@@ -13,13 +13,12 @@ return new class extends Migration
     {
         Schema::create('finances', function (Blueprint $table) {
             $table->id();
-            $table->double('monthly_income');
-            $table->double('fixed_costs');
-            $table->double('variable_costs');
-            $table->double('saving_amount')->nullable();
-            $table->string('saving_target')->nullable();
-            $table->double('debts')->nullable();
-
+            $table->decimal('monthly_income', 10, 2);
+            $table->decimal('fixed_costs', 10, 2);
+            $table->decimal('variable_costs', 10, 2);
+            $table->decimal('saving_amount', 10, 2);
+            $table->string('saving_target');
+            $table->decimal('debts', 10, 2);
             $table->timestamps();
         });
     }

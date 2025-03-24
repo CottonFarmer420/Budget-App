@@ -15,8 +15,8 @@ Route::get('/dashboard', function () {
 Route::get('/monat', function () {
     return view('Monatsformular');
 })->middleware(['auth', 'verified'])->name('monatsformular');
-
-Route::post('/monat', [FinancesController::class, 'store'])->name('finances.store');
+Route::get('/finance', [FinancesController::class, 'index'])->middleware(['auth'])->name('finance.index');
+Route::post('/finance', [FinancesController::class, 'store'])->name('finance.store');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

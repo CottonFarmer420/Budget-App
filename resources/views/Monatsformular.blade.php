@@ -7,40 +7,35 @@
     <div class="bg-green-200 flex items-center justify-center min-h-screen">
     <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-lg">
         <h2 class="text-2xl font-bold mb-6 text-center">Finanzplanungsformular</h2>
-        <form action="{{ route('finances.store') }}" method="POST" class="space-y-4">
+        @if(session('success'))
+            <p class="text-green-500">{{ session('success') }}</p>
+        @endif
+
+        @if(session('error'))
+            <p class="text-red-500">{{ session('error') }}</p>
+        @endif
+
+        <form action="{{ route('finance.store') }}" method="POST" class="p-4 border rounded">
             @csrf
+            <label for="monthly_income">Monatliches Einkommen (€)</label>
+            <input type="number" name="monthly_income" required class="border p-2 rounded w-full mb-2">
 
-            @if (session('success'))
-                <div class="mb-4 p-4 text-white bg-green-500 border border-green-600 rounded-lg shadow-md flex justify-center text-center">
-                    {{ session('success') }}
-                </div>
-            @endif
-            <div>
-                <label class="block text-gray-700">Monatliches Nettoeinkommen</label>
-                <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-                <label class="block text-gray-700">Fixkosten (Miete, Versicherungen, etc.)</label>
-                <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-                <label class="block text-gray-700">Variable Ausgaben (Lebensmittel, Freizeit, etc.)</label>
-                <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-                <label class="block text-gray-700">Sparbetrag pro Monat (€)</label>
-                <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-                <label class="block text-gray-700">Sparziel (Gegenstand, Investition, etc.)</label>
-                <input type="text" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            </div>
-            <div>
-                <label class="block text-gray-700">Bestehende Schulden (€)</label>
-                <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
-            </div>
+            <label for="fixed_costs">Fixkosten (€)</label>
+            <input type="number" name="fixed_costs" required class="border p-2 rounded w-full mb-2">
 
-            <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Absenden</button>
+            <label for="variable_costs">Variable Kosten (€)</label>
+            <input type="number" name="variable_costs" required class="border p-2 rounded w-full mb-2">
+
+            <label for="saving_amount">Ersparnisse (€)</label>
+            <input type="number" name="saving_amount" required class="border p-2 rounded w-full mb-2">
+
+            <label for="saving_target">Sparziel</label>
+            <input type="text" name="saving_target" required class="border p-2 rounded w-full mb-2">
+
+            <label for="debts">Schulden (€)</label>
+            <input type="number" name="debts" required class="border p-2 rounded w-full mb-2">
+
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Speichern</button>
         </form>
     </div>
     </div>

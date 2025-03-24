@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Finances;
+use App\Models\Finance;
 use Illuminate\Http\Request;
 
 class FinancesController extends Controller
@@ -12,7 +12,8 @@ class FinancesController extends Controller
      */
     public function index()
     {
-        //
+        $finances = Finance::all(); // Alle Finanzen abrufen
+        return view('list', compact('finances')); // An die View weitergeben
     }
 
     /**
@@ -29,28 +30,28 @@ class FinancesController extends Controller
     public function store(Request $request)
     {
         $attributes = request()->validate([
-            'monthly_income' => 'required',
-            'fixed_costs' => 'required',
-            'variable_costs' => 'required',
-            'saving_amount' => 'required',
-            'saving_target' => 'required',
-            'debts' => 'required',
+            'monthly_income' => 'required|numeric',
+            'fixed_costs' => 'required|numeric',
+            'variable_costs' => 'required|numeric',
+            'saving_amount' => 'required|numeric',
+            'saving_target' => 'required|string',
+            'debts' => 'required|numeric',
         ]);
 
         try {
-            $finance = new Finances();
+            $finance = new Finance();
             $finance->monthly_income = $attributes['monthly_income'];
             $finance->fixed_costs = $attributes['fixed_costs'];
             $finance->variable_costs = $attributes['variable_costs'];
             $finance->saving_amount = $attributes['saving_amount'];
             $finance->saving_target = $attributes['saving_target'];
             $finance->debts = $attributes['debts'];
-            $finance->user_id = auth()->id();
+            // $finance->user_id = auth()->id();
             $finance->save();
 
-            return back()->with('success', 'Finance added successfully');
+            return redirect()->route('finance.index')->with('success', 'Finance erfolgreich hinzugefügt!');
         } catch (\Exception $e) {
-            return back()->with('error', 'Something went wrong');
+            return redirect()->back()->with('error', 'Fehler: ' . $e->getMessage());
         }
 
 
@@ -59,7 +60,7 @@ class FinancesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Finances $finances)
+    public function show(Finance $finance)
     {
         //
     }
@@ -67,7 +68,7 @@ class FinancesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Finances $finances)
+    public function edit(Finance $finance)
     {
         $attributes = request()->validate([
             'monthly_income' => 'required',
@@ -77,7 +78,7 @@ class FinancesController extends Controller
             'saving_target' => 'required',
             'debts' => 'required',
         ]);
-        $finances->update($attributes);
+        $finance->update($attributes);
 
         return back()->with('success', 'Finance updated successfully');
     }
@@ -87,7 +88,7 @@ class FinancesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Finances $finances)
+    public function destroy(Finance $finance)
     {
         //
     }
