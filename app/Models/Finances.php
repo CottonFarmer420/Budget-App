@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Finances extends Model
 {
-    /** @use HasFactory<\Database\Factories\FinancesFactory> */
+
     use HasFactory;
 
     protected $fillable = [

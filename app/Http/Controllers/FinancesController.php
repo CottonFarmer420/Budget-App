@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Finances;
-use App\Http\Requests\StoreFinancesRequest;
-use App\Http\Requests\UpdateFinancesRequest;
+use Illuminate\Http\Request;
 
 class FinancesController extends Controller
 {
@@ -27,9 +26,34 @@ class FinancesController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreFinancesRequest $request)
+    public function store(Request $request)
     {
-        //
+        $attributes = request()->validate([
+            'monthly_income' => 'required',
+            'fixed_costs' => 'required',
+            'variable_costs' => 'required',
+            'saving_amount' => 'required',
+            'saving_target' => 'required',
+            'debts' => 'required',
+        ]);
+
+        try {
+            $finance = new Finances();
+            $finance->monthly_income = $attributes['monthly_income'];
+            $finance->fixed_costs = $attributes['fixed_costs'];
+            $finance->variable_costs = $attributes['variable_costs'];
+            $finance->saving_amount = $attributes['saving_amount'];
+            $finance->saving_target = $attributes['saving_target'];
+            $finance->debts = $attributes['debts'];
+            $finance->user_id = auth()->id();
+            $finance->save();
+
+            return back()->with('success', 'Finance added successfully');
+        } catch (\Exception $e) {
+            return back()->with('error', 'Something went wrong');
+        }
+
+
     }
 
     /**
@@ -45,16 +69,20 @@ class FinancesController extends Controller
      */
     public function edit(Finances $finances)
     {
-        //
+        $attributes = request()->validate([
+            'monthly_income' => 'required',
+            'fixed_costs' => 'required',
+            'variable_costs' => 'required',
+            'saving_amount' => 'required',
+            'saving_target' => 'required',
+            'debts' => 'required',
+        ]);
+        $finances->update($attributes);
+
+        return back()->with('success', 'Finance updated successfully');
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateFinancesRequest $request, Finances $finances)
-    {
-        //
-    }
+
 
     /**
      * Remove the specified resource from storage.

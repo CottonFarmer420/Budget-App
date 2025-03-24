@@ -7,7 +7,14 @@
     <div class="bg-green-200 flex items-center justify-center min-h-screen">
     <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-lg">
         <h2 class="text-2xl font-bold mb-6 text-center">Finanzplanungsformular</h2>
-        <form action="#" method="POST" class="space-y-4">
+        <form action="{{ route('finances.store') }}" method="POST" class="space-y-4">
+            @csrf
+
+            @if (session('success'))
+                <div class="mb-4 p-4 text-white bg-green-500 border border-green-600 rounded-lg shadow-md flex justify-center text-center">
+                    {{ session('success') }}
+                </div>
+            @endif
             <div>
                 <label class="block text-gray-700">Monatliches Nettoeinkommen</label>
                 <input type="number" class="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
