@@ -68,33 +68,61 @@ class FinancesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Finance $finance)
+    public function edit($id)
     {
-        $attributes = request()->validate([
-            'monthly_income' => 'required',
-            'fixed_costs' => 'required',
-            'variable_costs' => 'required',
-            'saving_amount' => 'required',
-            'saving_target' => 'required',
-            'debts' => 'required',
-        ]);
-        $finance->update($attributes);
+        // Finanzdaten aus der Datenbank abrufen
+        $finance = Finance::findOrFail($id);
 
-        return back()->with('success', 'Finance updated successfully');
+        // Bearbeitungs-View aufrufen und Daten übergeben
+        return view('edit', compact('finance'));
+
     }
+
+    public function update(Request $request, $id)
+    {
+        $request->validate([
+            'monthly_income' => 'required|numeric',
+            'fixed_costs' => 'required|numeric',
+            'variable_costs' => 'required|numeric',
+            'saving_amount' => 'required|numeric',
+            'saving_target' => 'required|string',
+            'debts' => 'required|numeric',
+        ]);
+
+        // Finanzdatensatz suchen und aktualisieren
+        $finance = Finance::findOrFail($id);
+        $finance->update([
+            'monthly_income' => $request->monthly_income,
+            'fixed_costs' => $request->fixed_costs,
+            'variable_costs' => $request->variable_costs,
+            'saving_amount' => $request->saving_amount,
+            'saving_target' => $request->saving_target,
+            'debts' => $request->debts,
+        ]);
+
+        // Zurück zur Liste mit Erfolgsnachricht
+        return redirect()->route('finance.index')->with('success', 'Finanzdaten erfolgreich aktualisiert.');
+    }
+
 
 
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Finance $finance)
+    public function destroy($id)
     {
-        $res = (new \App\Models\Finance)->delete($finance);
+        // Suche den Finance-Eintrag
+        $finance = Finance::find($id);
 
-        if ($res) {
-            return back()->with('success', 'Finance deleted successfully');
+        // Falls der Eintrag existiert, löschen
+        if ($finance) {
+            $finance->delete();
+            return redirect()->route('finance.index')->with('success', 'Eintrag erfolgreich gelöscht.');
         }
+
+        // Falls der Eintrag nicht gefunden wurde, Fehlermeldung zurückgeben
+        return redirect()->route('finance.index')->with('error', 'Eintrag nicht gefunden.');
     }
 
 
