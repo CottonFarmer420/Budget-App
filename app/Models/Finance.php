@@ -18,4 +18,9 @@ class Finance extends Model
         'saving_target',
         'debts',
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

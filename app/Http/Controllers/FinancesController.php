@@ -46,7 +46,7 @@ class FinancesController extends Controller
             $finance->saving_amount = $attributes['saving_amount'];
             $finance->saving_target = $attributes['saving_target'];
             $finance->debts = $attributes['debts'];
-            // $finance->user_id = auth()->id();
+            $finance->user_id = auth()->id();
             $finance->save();
 
             return redirect()->route('finance.index')->with('success', 'Finance erfolgreich hinzugefügt!');
