@@ -16,7 +16,9 @@ Route::get('/user', function (Request $request) {
 
 Route::get('/finance', [FinancesController::class, 'index']);
 
-
+Route::middleware('auth:sanctum')->get('/finances', function (Request $request) {
+    return $request->user()->finances;
+});
 
 
 
