@@ -12,8 +12,8 @@ class FinancesController extends Controller
      */
     public function index()
     {
-        $finances = Finance::all(); // Alle Finanzen abrufen
-        return view('list', compact('finances')); // An die View weitergeben
+        $finances = Finance::where('user_id', auth()->id())->get();
+        return view('list', compact('finances')); 
     }
 
     /**

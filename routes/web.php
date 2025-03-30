@@ -33,24 +33,8 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::middleware('auth')->get('/token', function (Request $request) {
-    if (!$request->user()) {
-        return response()->json(['error' => 'Nicht eingeloggt'], 401);
-    }
-
-    $token = $request->user()->createToken('browser-token')->plainTextToken;
-
-    return response()->json(['token' => $token]);
-});
-
-Route::middleware('auth')->get('/token', function (Request $request) {
     $token = $request->user()->createToken('browser-token')->plainTextToken;
     return response()->json(['token' => $token]);
 });
-
-Route::middleware('auth:sanctum')->get('/finances', function (Request $request) {
-    return response()->json($request->user()->finances);
-});
-
-
 
 require __DIR__.'/auth.php';
