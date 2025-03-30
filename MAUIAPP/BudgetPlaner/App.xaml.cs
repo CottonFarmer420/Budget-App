@@ -1,4 +1,6 @@
-﻿namespace BudgetPlaner
+using BudgetPlaner.Views;
+
+namespace BudgetPlaner
 {
     public partial class App : Application
     {

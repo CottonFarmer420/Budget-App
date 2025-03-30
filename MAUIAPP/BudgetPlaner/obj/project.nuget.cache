@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vobUmTC7Q+o=",
+  "dgSpecHash": "rBk+caEIfHQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\Maxis\\.nuget\\packages\\microsoft.web.webview2\\1.0.2792.45\\microsoft.web.webview2.1.0.2792.45.nupkg.sha512",
     "C:\\Users\\Maxis\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Maxis\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.240923002\\microsoft.windowsappsdk.1.6.240923002.nupkg.sha512",
+    "C:\\Users\\Maxis\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\Maxis\\.nuget\\packages\\xamarin.android.glide\\4.16.0.6\\xamarin.android.glide.4.16.0.6.nupkg.sha512",
     "C:\\Users\\Maxis\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.6\\xamarin.android.glide.annotations.4.16.0.6.nupkg.sha512",
     "C:\\Users\\Maxis\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.16.0.6\\xamarin.android.glide.disklrucache.4.16.0.6.nupkg.sha512",

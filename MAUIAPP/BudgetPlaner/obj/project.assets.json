@@ -429,6 +429,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -2804,6 +2817,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.16.0.6": {
@@ -5183,6 +5209,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -7558,6 +7597,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.16.0.6": {
@@ -9937,6 +9989,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -12314,6 +12379,19 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -14663,6 +14741,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-ios18.1/android-arm64": {
@@ -15064,6 +15155,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -15467,6 +15571,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-ios18.1/iossimulator-x64": {
@@ -15868,6 +15985,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -16271,6 +16401,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-ios18.1/win10-x64": {
@@ -16672,6 +16815,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -17075,6 +17231,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-maccatalyst18.1/android-arm64": {
@@ -17476,6 +17645,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -17879,6 +18061,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-maccatalyst18.1/iossimulator-x64": {
@@ -18280,6 +18475,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -18683,6 +18891,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-maccatalyst18.1/win10-x64": {
@@ -19084,6 +19305,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -19699,6 +19933,19 @@
             "rid": "win-x86"
           }
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-windows10.0.19041/android-arm64": {
@@ -20270,6 +20517,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -20843,6 +21103,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-windows10.0.19041/iossimulator-x64": {
@@ -21415,6 +21688,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net9.0-windows10.0.19041/maccatalyst-x64": {
@@ -21986,6 +22272,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -22567,6 +22866,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "RestSharp/112.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -24495,6 +24807,31 @@
         "tools/x86/GenXbf.dll"
       ]
     },
+    "RestSharp/112.1.0": {
+      "sha512": "bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
+      "type": "package",
+      "path": "restsharp/112.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.112.1.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "Xamarin.Android.Glide/4.16.0.6": {
       "sha512": "UlVmpTxb1dc7pmbmnDFzTZ7Pyu2EPpORP1JI+tjx/t9DHvzbdo2dLESMiPwYH5THJ/aHV7O0gY0pmaQjjcotXQ==",
       "type": "package",
@@ -26394,21 +26731,25 @@
     "net9.0-android35.0": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "RestSharp >= 112.1.0"
     ],
     "net9.0-ios18.1": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "RestSharp >= 112.1.0"
     ],
     "net9.0-maccatalyst18.1": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "RestSharp >= 112.1.0"
     ],
     "net9.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
-      "Microsoft.Maui.Controls >= 9.0.0"
+      "Microsoft.Maui.Controls >= 9.0.0",
+      "RestSharp >= 112.1.0"
     ]
   },
   "packageFolders": {
@@ -26491,6 +26832,10 @@
             "target": "Package",
             "version": "[9.0.0, )",
             "autoReferenced": true
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[112.1.0, )"
           }
         },
         "imports": [
@@ -26530,6 +26875,10 @@
             "target": "Package",
             "version": "[9.0.0, )",
             "autoReferenced": true
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[112.1.0, )"
           }
         },
         "imports": [
@@ -26569,6 +26918,10 @@
             "target": "Package",
             "version": "[9.0.0, )",
             "autoReferenced": true
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[112.1.0, )"
           }
         },
         "imports": [
@@ -26603,6 +26956,10 @@
           "Microsoft.Maui.Controls": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[112.1.0, )"
           }
         },
         "imports": [
