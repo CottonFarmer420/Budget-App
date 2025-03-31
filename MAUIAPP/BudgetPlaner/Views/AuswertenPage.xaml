@@ -7,23 +7,29 @@
         <StackLayout Padding="20" Spacing="15">
             <Label Text="Deine Finanzübersicht" FontSize="24" TextColor="DeepSkyBlue" HorizontalOptions="Center" />
 
+            <!-- CollectionView für Budgets -->
             <CollectionView ItemsSource="{Binding Budgets}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Border Stroke="DarkGray" BackgroundColor="LightGreen" Padding="15" Margin="5">
-                                <Label Text="{Binding Amount}"/>
+                            <Border Stroke="DarkGray" BackgroundColor="Blue" Padding="15" Margin="5">
+                                <Label Text="{Binding Amount}" />
                             </Border>
-                            <CollectionView ItemsSource="{Binding Budgets.Expenses}">
+
+                            <!-- Inneres CollectionView für Expenses -->
+                            <CollectionView ItemsSource="{Binding Expenses}">
                                 <CollectionView.ItemTemplate>
                                     <DataTemplate>
                                         <Border Stroke="DarkGray" BackgroundColor="LightGreen" Padding="15" Margin="5">
-                                            <Label Text="{Binding Category}"/>
-                                            <Label Text="{Binding Amount}"/>
+                                            <StackLayout>
+                                                <Label Text="{Binding Category}" />
+                                                <Label Text="{Binding Amount}" />
+                                            </StackLayout>
                                         </Border>
                                     </DataTemplate>
                                 </CollectionView.ItemTemplate>
                             </CollectionView>
+
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

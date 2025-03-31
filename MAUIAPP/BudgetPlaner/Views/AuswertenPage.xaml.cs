@@ -21,30 +21,27 @@ public partial class AuswertenPage : ContentPage
         await LadeDaten();
     }
 
-    public async Task LoadBudget()
-    {
-        var daten = await _apiService.GetFinanzenAsync();
-        foreach (Budget e in daten)
-        {
-           Budgets.Add(e);
-        }
-    }
-
     private async Task LadeDaten()
     {
-
-        await LoadBudget();
         try
         {
-            foreach (var e in Budgets)
+            var daten = await _apiService.GetFinanzenAsync();
+
+            foreach (var budget in daten)
             {
-                var finanzen = await _apiService.GetExpensesForBudgetAsync(e.Id);
-                
-                foreach (var budget in finanzen)
+                // Initialisiere Expenses, falls null
+                budget.Expenses ??= new ObservableCollection<Expense>();
+
+                // Hole Expenses vom Server
+                var expenses = await _apiService.GetExpensesForBudgetAsync(budget.Id);
+                foreach (var exp in expenses)
                 {
-                    e.Expenses.Add(budget);
+                    budget.Expenses.Add(exp);
                 }
+
+                Budgets.Add(budget);
             }
+
         }
         catch (Exception ex)
         {

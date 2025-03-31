@@ -69,10 +69,11 @@ class BudgetController extends Controller
         return view('budget.show', compact('budget', 'expenses'));
     }
 
-    public function showall($id)
+    public function showall()
     {
+        $budget= auth()->user()->budgets()->with('expenses')->get();
         // Lade Budget mit Ausgaben (expenses) und gebe das als Antwort zurück
-        $budget = Budget::with('expenses')->findOrFail($id);
+
         return response()->json($budget);
     }
 

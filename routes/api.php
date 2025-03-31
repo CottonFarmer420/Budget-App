@@ -11,11 +11,7 @@ Route::get('/user', function (Request $request) {
 
 
 
-Route::middleware('auth:sanctum')->get('/budgets', function (Request $request) {
-    return $request->user()->budgets;
-});
-
-Route::middleware('auth:sanctum')->get('/budgets/{id}', [BudgetController::class, 'showall']);
+Route::middleware('auth:sanctum')->get('/budgets', [BudgetController::class, 'showall']);
 
 
 
