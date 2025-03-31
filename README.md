@@ -12,7 +12,7 @@
 | 30.03.2025 | MAUI APP                                | 21:00 | 23:30 |
 | 31.03.2025 | Design MAUI APP                         | 09:35 | 11:15 |
 | 31.03.2025 | Neustart des Projektes                  | 13:30 | 18:30 |
-| 31.03.2025 | PSP, Präsentation und SyncFusion Graphs | 19:00  | 01:00  |
+| 31.03.2025 | PSP, Präsentation und SyncFusion Graphs | 19:00  | 00:00  |
 
 # Features
 
