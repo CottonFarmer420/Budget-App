@@ -69,6 +69,13 @@ class BudgetController extends Controller
         return view('budget.show', compact('budget', 'expenses'));
     }
 
+    public function showall($id)
+    {
+        // Lade Budget mit Ausgaben (expenses) und gebe das als Antwort zurück
+        $budget = Budget::with('expenses')->findOrFail($id);
+        return response()->json($budget);
+    }
+
     public function destroy($id)
     {
         // Budget des Benutzers finden und löschen

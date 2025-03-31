@@ -37,6 +37,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/expense/{id}', [BudgetController::class, 'destroyExpense'])->name('expense.destroy');
 });
 
+Route::middleware('auth')->get('/token', function (Request $request) {
+    $token = $request->user()->createToken('browser-token')->plainTextToken;
+    return response()->json(['token' => $token]);
+});
+
 /*
 Route::get('/monat', function () {
     return view('Monatsformular');
@@ -58,9 +63,5 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::middleware('auth')->get('/token', function (Request $request) {
-    $token = $request->user()->createToken('browser-token')->plainTextToken;
-    return response()->json(['token' => $token]);
-});
 
 require __DIR__.'/auth.php';
