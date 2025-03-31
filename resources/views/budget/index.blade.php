@@ -19,24 +19,23 @@
                     <h5>Ausgaben:</h5>
                     <ul>
                         @foreach($budget->expenses as $expense)
-                            <li>{{ $expense->category }}: {{ $expense->amount }} €</li>
-                        @endforeach
-                        <!-- Bearbeiten-Button -->
-                        <a href="{{ route('budget.edit', $budget->id) }}" class="text-yellow-500 hover:text-yellow-700 font-medium">
-                            ✏️ Bearbeiten
-                        </a>
+                            <li>
+                                {{ $expense->category }}: {{ $expense->amount }} €
 
-                        <!-- Löschen-Button -->
-                        <form action="{{ route('budget.destroy', $budget->id) }}" method="POST">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="text-red-600 hover:text-red-800 font-medium">
-                                🗑️ Löschen
-                            </button>
-                        </form>
+                                <!-- Bearbeiten-Button -->
+                                <a href="{{ route('expense.edit', $expense->id) }}" class="text-yellow-500 hover:text-yellow-700">✏️ Bearbeiten</a>
+
+                                <!-- Löschen-Button -->
+                                <form action="{{ route('expense.destroy', $expense->id) }}" method="POST" class="inline-block">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="text-red-600 hover:text-red-800">🗑️ Löschen</button>
+                                </form>
+                            </li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
-    </div>
-    @endforeach
+        @endforeach
     </div>
 </x-app-layout>

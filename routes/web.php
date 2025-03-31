@@ -32,9 +32,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/budgets/{id}', [BudgetController::class, 'destroy'])->name('budget.destroy');
 
     // Routen für das Hinzufügen, Bearbeiten und Löschen von Ausgaben
-    Route::get('/expenses/{expense}/edit', [BudgetController::class, 'editExpense'])->name('expense.edit.blade.php');
-    Route::put('/expenses/{expense}', [BudgetController::class, 'updateExpense'])->name('expense.update');
-    Route::delete('/expenses/{expense}', [BudgetController::class, 'destroyExpense'])->name('expense.destroy');
+    Route::get('/expense/{id}/edit', [BudgetController::class, 'editExpense'])->name('expense.edit');
+    Route::put('/expense/{id}', [BudgetController::class, 'updateExpense'])->name('expense.update');
+    Route::delete('/expense/{id}', [BudgetController::class, 'destroyExpense'])->name('expense.destroy');
 });
 
 /*

@@ -99,30 +99,30 @@ class BudgetController extends Controller
         return redirect()->route('budget.index')->with('success', 'Budget erfolgreich aktualisiert');
     }
 
-    public function editExpense(Expense $expense)
+    public function editExpense($id)
     {
-
-        return view('expense.edit.blade.php', compact('expense'));
+        $expense = Expense::findOrFail($id);  // Finde die Ausgabe
+        return view('expense.edit', compact('expense'));
     }
 
-    public function updateExpense(Request $request, Expense $expense)
+    public function updateExpense(Request $request, $id)
     {
-
+        $expense = Expense::findOrFail($id);  // Finde die Ausgabe
 
         $expense->update([
             'category' => $request->category,
             'amount' => $request->amount,
         ]);
 
-        return redirect()->route('budget.index')->with('success', 'Ausgabe erfolgreich aktualisiert');
+        return redirect()->route('budget.index')->with('success', 'Ausgabe erfolgreich aktualisiert!');
     }
 
     // Löscht eine Ausgabe
-    public function destroyExpense(Expense $expense)
+    public function destroyExpense($id)
     {
+        $expense = Expense::findOrFail($id);  // Finde die Ausgabe
+        $expense->delete();  // Lösche die Ausgabe
 
-        $expense->delete();
-
-        return redirect()->route('budget.index')->with('success', 'Ausgabe erfolgreich gelöscht');
+        return redirect()->route('budget.index')->with('success', 'Ausgabe erfolgreich gelöscht!');
     }
 }
