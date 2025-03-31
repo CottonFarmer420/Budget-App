@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:charts="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             x:Class="BudgetPlaner.Views.DiagrammPage"
+             Title="DiagrammPage">
+    <StackLayout Padding="20">
+
+        <charts:SfCartesianChart>
+            <charts:SfCartesianChart.XAxes>
+                <charts:CategoryAxis PlotOffsetEnd="1">
+                    <charts:CategoryAxis.Title>
+                        <charts:ChartAxisTitle FontSize="25" Text="Einnahmen und Ausgaben" />
+                    </charts:CategoryAxis.Title>
+                </charts:CategoryAxis>
+            </charts:SfCartesianChart.XAxes>
+
+            <charts:SfCartesianChart.YAxes>
+                <charts:NumericalAxis PlotOffsetEnd="1">
+                    <charts:NumericalAxis.Title>
+                        <charts:ChartAxisTitle FontSize="15" Text="Beträge in €" />
+                    </charts:NumericalAxis.Title>
+                </charts:NumericalAxis>
+            </charts:SfCartesianChart.YAxes>
+
+            <!-- Budget-Balken -->
+            <charts:ColumnSeries 
+        ItemsSource="{Binding BudgetSeries}"
+        XBindingPath="Label"
+        YBindingPath="Value"
+        Label="Budget"
+        ShowDataLabels="True"
+        Spacing="0.5"
+        Width="1">
+            <charts:ColumnSeries.DataLabelSettings>
+                <charts:CartesianDataLabelSettings UseSeriesPalette="True"/>
+            </charts:ColumnSeries.DataLabelSettings>
+            </charts:ColumnSeries>
+
+            <!-- Ausgaben-Balken -->
+            <charts:ColumnSeries
+        ItemsSource="{Binding ExpenseSeries}"
+        XBindingPath="Label"
+        YBindingPath="Value"
+        Label="Ausgaben"
+        ShowDataLabels="True"
+        Spacing="0.5"
+        Width="1" >
+        <charts:ColumnSeries.DataLabelSettings>
+            <charts:CartesianDataLabelSettings UseSeriesPalette="True" />
+        </charts:ColumnSeries.DataLabelSettings>
+            </charts:ColumnSeries>
+
+            
+
+        </charts:SfCartesianChart>
+
+    </StackLayout>
+
+</ContentPage>
+

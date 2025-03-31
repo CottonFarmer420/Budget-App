@@ -2,35 +2,62 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BudgetPlaner.Views.AuswertenPage"
-             Title="AuswertenPage">
+             Title="Auswerten">
     <ScrollView>
-        <StackLayout Padding="20" Spacing="15">
-            <Label Text="Deine Finanzübersicht" FontSize="24" TextColor="DeepSkyBlue" HorizontalOptions="Center" />
+        <StackLayout Padding="20" Spacing="25">
+            <Label Text="💰 Deine Finanzübersicht" 
+                   FontSize="26" 
+                   FontAttributes="Bold"
+                   TextColor="DeepSkyBlue" 
+                   HorizontalOptions="Center" />
 
-            <!-- CollectionView für Budgets -->
+            <!-- Budgets -->
             <CollectionView ItemsSource="{Binding Budgets}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                            <Border Stroke="DarkGray" BackgroundColor="Blue" Padding="15" Margin="5">
-                                <Label Text="{Binding Amount}" />
-                            </Border>
+                        <Frame CornerRadius="12"
+                               Padding="15"
+                               Margin="0,0,0,200"
+                               BorderColor="White"
+                               BackgroundColor="LightBlue">
+                            <StackLayout Spacing="15">
+                                <!-- Budgetbetrag -->
+                                <Label Text="{Binding Amount, StringFormat='Budget: {0:N2} €'}"
+                                       FontSize="20"
+                                       FontAttributes="Bold"
+                                       TextColor="Black" />
 
-                            <!-- Inneres CollectionView für Expenses -->
-                            <CollectionView ItemsSource="{Binding Expenses}">
-                                <CollectionView.ItemTemplate>
-                                    <DataTemplate>
-                                        <Border Stroke="DarkGray" BackgroundColor="LightGreen" Padding="15" Margin="5">
-                                            <StackLayout>
-                                                <Label Text="{Binding Category}" />
-                                                <Label Text="{Binding Amount}" />
-                                            </StackLayout>
-                                        </Border>
-                                    </DataTemplate>
-                                </CollectionView.ItemTemplate>
-                            </CollectionView>
+                                <!-- Ausgabenüberschrift -->
+                                <Label Text="Ausgaben:"
+                                       FontSize="16"
+                                       TextColor="Black"
+                                       FontAttributes="Bold" />
 
-                        </StackLayout>
+                                <!-- Expenses -->
+                                <CollectionView ItemsSource="{Binding Expenses}">
+                                    <CollectionView.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Padding="10"
+                                                  BackgroundColor="#2e2e2e"
+                                                  Margin="0,0,0,40"
+                                                  ColumnDefinitions="*,Auto"
+                                                  RowSpacing="2">
+                                                <Label Text="{Binding Category}"
+                                                       FontSize="14"
+                                                       TextColor="LightGreen"
+                                                       VerticalOptions="Center" />
+                                                <Label Text="{Binding Amount, StringFormat='{0:N2} €'}"
+                                                       FontSize="14"
+                                                       TextColor="#ff4747"
+                                                       HorizontalOptions="End"
+                                                       Grid.Column="1"
+                                                       VerticalOptions="Center" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </CollectionView.ItemTemplate>
+                                </CollectionView>
+                            </StackLayout>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

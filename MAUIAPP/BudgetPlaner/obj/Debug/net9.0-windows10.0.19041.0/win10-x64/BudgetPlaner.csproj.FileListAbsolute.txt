@@ -944,3 +944,8 @@ C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\obj\Debug\net9.0-windows10.0
 C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Max\Git\miniprojekt\MAUIAPP\BudgetPlaner\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\RestSharp.dll
+C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MauiMaterialAssets.ttf
+C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
+C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Charts.dll
+C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
+C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\MauiMaterialAssets.ttf

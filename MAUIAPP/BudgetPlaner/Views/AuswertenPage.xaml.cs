@@ -29,16 +29,6 @@ public partial class AuswertenPage : ContentPage
 
             foreach (var budget in daten)
             {
-                // Initialisiere Expenses, falls null
-                budget.Expenses ??= new ObservableCollection<Expense>();
-
-                // Hole Expenses vom Server
-                var expenses = await _apiService.GetExpensesForBudgetAsync(budget.Id);
-                foreach (var exp in expenses)
-                {
-                    budget.Expenses.Add(exp);
-                }
-
                 Budgets.Add(budget);
             }
 

@@ -22,13 +22,10 @@ namespace BudgetPlaner
             await Navigation.PushAsync(new AuswertenPage());
         }
 
-
-
-
-
-
-
-
+        private async void OnDiagrammPageClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DiagrammPage());
+        }
     }
 
 }

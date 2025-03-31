@@ -442,6 +442,50 @@
           }
         }
       },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -2830,6 +2874,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       },
       "Xamarin.Android.Glide/4.16.0.6": {
@@ -5222,6 +5310,50 @@
           }
         }
       },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -7610,6 +7742,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       },
       "Xamarin.Android.Glide/4.16.0.6": {
@@ -10002,6 +10178,50 @@
           }
         }
       },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -12392,6 +12612,50 @@
           }
         }
       },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
+      },
       "Xamarin.Android.Glide/4.16.0.6": {
         "type": "package",
         "dependencies": {
@@ -14754,6 +15018,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-ios18.1/android-arm64": {
@@ -15168,6 +15476,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -15584,6 +15936,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-ios18.1/iossimulator-x64": {
@@ -15998,6 +16394,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -16414,6 +16854,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-ios18.1/win10-x64": {
@@ -16828,6 +17312,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -17244,6 +17772,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-maccatalyst18.1/android-arm64": {
@@ -17658,6 +18230,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -18074,6 +18690,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-maccatalyst18.1/iossimulator-x64": {
@@ -18488,6 +19148,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -18904,6 +19608,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-maccatalyst18.1/win10-x64": {
@@ -19318,6 +20066,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -19946,6 +20738,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-windows10.0.19041/android-arm64": {
@@ -20530,6 +21366,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -21116,6 +21996,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-windows10.0.19041/iossimulator-x64": {
@@ -21701,6 +22625,50 @@
             "related": ".xml"
           }
         }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
+        }
       }
     },
     "net9.0-windows10.0.19041/maccatalyst-x64": {
@@ -22285,6 +23253,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     },
@@ -22879,6 +23891,50 @@
           "lib/net8.0/RestSharp.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Syncfusion.Licensing/29.1.33": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".deps.json;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "compile": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Syncfusion.Maui.Core.props": {}
         }
       }
     }
@@ -24832,6 +25888,120 @@
         "restsharp.png"
       ]
     },
+    "Syncfusion.Licensing/29.1.33": {
+      "sha512": "86pl48kuJ+CR9MdclPV0vyqX/j8g7AYxBCZwJdtct35shlga4qAv6SWWzP7osPSUX/j3BBCtE49I8K5YBTj+Lg==",
+      "type": "package",
+      "path": "syncfusion.licensing/29.1.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/net9.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.29.1.33.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Charts/29.1.33": {
+      "sha512": "avNhF+4r5LsOr3WyLCELUNgbGENYZA6NPl0Rc5V1xjjClLYJ9DN/lQpCXnqA4V5WEdn4+5x56WZQ8tFsz921Vw==",
+      "type": "package",
+      "path": "syncfusion.maui.charts/29.1.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Charts.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Charts.xml",
+        "lib/net8.0-ios17.0/Syncfusion.Maui.Charts.dll",
+        "lib/net8.0-ios17.0/Syncfusion.Maui.Charts.xml",
+        "lib/net8.0-maccatalyst17.0/Syncfusion.Maui.Charts.dll",
+        "lib/net8.0-maccatalyst17.0/Syncfusion.Maui.Charts.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Charts.xml",
+        "lib/net8.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Charts.dll",
+        "lib/net8.0/Syncfusion.Maui.Charts.xml",
+        "lib/net9.0-android35.0/Syncfusion.Maui.Charts.dll",
+        "lib/net9.0-android35.0/Syncfusion.Maui.Charts.xml",
+        "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.dll",
+        "lib/net9.0-ios18.0/Syncfusion.Maui.Charts.xml",
+        "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.dll",
+        "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Charts.xml",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.xml",
+        "lib/net9.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net9.0/Syncfusion.Maui.Charts.dll",
+        "lib/net9.0/Syncfusion.Maui.Charts.xml",
+        "syncfusion.maui.charts.29.1.33.nupkg.sha512",
+        "syncfusion.maui.charts.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Core/29.1.33": {
+      "sha512": "aEGpg2UJ/YL5qslhQVY87c4rhB1vu1YAfwD+YxWUX55Feos195Cy8eMjwNwwzhZ1ahyWr2UhS4T9Ae4EoRaF5A==",
+      "type": "package",
+      "path": "syncfusion.maui.core/29.1.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "buildTransitive/Resources/Fonts/MauiMaterialAssets.ttf",
+        "buildTransitive/Syncfusion.Maui.Core.props",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-ios17.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-ios17.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-maccatalyst17.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-maccatalyst17.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xbf",
+        "lib/net8.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0/Syncfusion.Maui.Core.xml",
+        "lib/net9.0-android35.0/Syncfusion.Maui.Core.dll",
+        "lib/net9.0-android35.0/Syncfusion.Maui.Core.xml",
+        "lib/net9.0-ios18.0/Syncfusion.Maui.Core.dll",
+        "lib/net9.0-ios18.0/Syncfusion.Maui.Core.xml",
+        "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.dll",
+        "lib/net9.0-maccatalyst18.0/Syncfusion.Maui.Core.xml",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xaml",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xbf",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xaml",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xbf",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xaml",
+        "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xbf",
+        "lib/net9.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net9.0/Syncfusion.Maui.Core.dll",
+        "lib/net9.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.29.1.33.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "Xamarin.Android.Glide/4.16.0.6": {
       "sha512": "UlVmpTxb1dc7pmbmnDFzTZ7Pyu2EPpORP1JI+tjx/t9DHvzbdo2dLESMiPwYH5THJ/aHV7O0gY0pmaQjjcotXQ==",
       "type": "package",
@@ -26732,24 +27902,28 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
-      "RestSharp >= 112.1.0"
+      "RestSharp >= 112.1.0",
+      "Syncfusion.Maui.Charts >= 29.1.33"
     ],
     "net9.0-ios18.1": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
-      "RestSharp >= 112.1.0"
+      "RestSharp >= 112.1.0",
+      "Syncfusion.Maui.Charts >= 29.1.33"
     ],
     "net9.0-maccatalyst18.1": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
-      "RestSharp >= 112.1.0"
+      "RestSharp >= 112.1.0",
+      "Syncfusion.Maui.Charts >= 29.1.33"
     ],
     "net9.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
-      "RestSharp >= 112.1.0"
+      "RestSharp >= 112.1.0",
+      "Syncfusion.Maui.Charts >= 29.1.33"
     ]
   },
   "packageFolders": {
@@ -26836,6 +28010,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[112.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[29.1.33, )"
           }
         },
         "imports": [
@@ -26879,6 +28057,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[112.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[29.1.33, )"
           }
         },
         "imports": [
@@ -26922,6 +28104,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[112.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[29.1.33, )"
           }
         },
         "imports": [
@@ -26960,6 +28146,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[112.1.0, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[29.1.33, )"
           }
         },
         "imports": [

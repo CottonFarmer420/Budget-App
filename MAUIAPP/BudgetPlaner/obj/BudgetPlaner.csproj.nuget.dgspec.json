@@ -84,6 +84,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[112.1.0, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[29.1.33, )"
             }
           },
           "imports": [
@@ -127,6 +131,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[112.1.0, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[29.1.33, )"
             }
           },
           "imports": [
@@ -170,6 +178,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[112.1.0, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[29.1.33, )"
             }
           },
           "imports": [
@@ -208,6 +220,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[112.1.0, )"
+            },
+            "Syncfusion.Maui.Charts": {
+              "target": "Package",
+              "version": "[29.1.33, )"
             }
           },
           "imports": [

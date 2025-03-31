@@ -12,6 +12,7 @@
           "Microsoft.Extensions.Logging.Debug": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0",
           "RestSharp": "112.1.0",
+          "Syncfusion.Maui.Charts": "29.1.33",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2792.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.54"
         },
@@ -452,6 +453,36 @@
           }
         }
       },
+      "Syncfusion.Licensing/29.1.33": {
+        "runtime": {
+          "lib/net9.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "29.1.33.0",
+            "fileVersion": "29.1.33.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Charts/29.1.33": {
+        "dependencies": {
+          "Syncfusion.Maui.Core": "29.1.33"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll": {
+            "assemblyVersion": "29.1.33.0",
+            "fileVersion": "29.1.33.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/29.1.33": {
+        "dependencies": {
+          "Syncfusion.Licensing": "29.1.33"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "29.1.33.0",
+            "fileVersion": "29.1.33.0"
+          }
+        }
+      },
       "Microsoft.Web.WebView2.Core.Projection/1.0.2792.45": {
         "runtime": {
           "Microsoft.Web.WebView2.Core.Projection.dll": {
@@ -640,6 +671,27 @@
       "sha512": "sha512-bOUGNZqhhv/QeCXHTKEUil846yBjwWXpzPKjO67kFvaAOoF361z7jLY5BMnuZ6WD2WQRA750sNMcK7MSPCQ5Mg==",
       "path": "restsharp/112.1.0",
       "hashPath": "restsharp.112.1.0.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/29.1.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-86pl48kuJ+CR9MdclPV0vyqX/j8g7AYxBCZwJdtct35shlga4qAv6SWWzP7osPSUX/j3BBCtE49I8K5YBTj+Lg==",
+      "path": "syncfusion.licensing/29.1.33",
+      "hashPath": "syncfusion.licensing.29.1.33.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Charts/29.1.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-avNhF+4r5LsOr3WyLCELUNgbGENYZA6NPl0Rc5V1xjjClLYJ9DN/lQpCXnqA4V5WEdn4+5x56WZQ8tFsz921Vw==",
+      "path": "syncfusion.maui.charts/29.1.33",
+      "hashPath": "syncfusion.maui.charts.29.1.33.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/29.1.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aEGpg2UJ/YL5qslhQVY87c4rhB1vu1YAfwD+YxWUX55Feos195Cy8eMjwNwwzhZ1ahyWr2UhS4T9Ae4EoRaF5A==",
+      "path": "syncfusion.maui.core/29.1.33",
+      "hashPath": "syncfusion.maui.core.29.1.33.nupkg.sha512"
     },
     "Microsoft.Web.WebView2.Core.Projection/1.0.2792.45": {
       "type": "reference",

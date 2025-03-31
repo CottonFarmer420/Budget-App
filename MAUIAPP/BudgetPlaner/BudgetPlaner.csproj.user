@@ -9,6 +9,9 @@
     <MauiXaml Update="Views\AuswertenPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\DiagrammPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\TokenPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
