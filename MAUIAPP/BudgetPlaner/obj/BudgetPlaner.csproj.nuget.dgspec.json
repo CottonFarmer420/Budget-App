@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj": {}
+    "C:\\Users\\Max\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj": {
+    "C:\\Users\\Max\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj",
         "projectName": "BudgetPlaner",
-        "projectPath": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj",
-        "packagesPath": "C:\\Users\\Maxis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\obj\\",
+        "projectPath": "C:\\Users\\Max\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\BudgetPlaner.csproj",
+        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Max\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Maxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -73,12 +73,12 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.14, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             },
             "RestSharp": {
@@ -105,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-ios18.1": {
           "targetAlias": "net9.0-ios",
@@ -116,12 +116,12 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.14, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             },
             "RestSharp": {
@@ -148,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-maccatalyst18.1": {
           "targetAlias": "net9.0-maccatalyst",
@@ -159,12 +159,12 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.14, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             },
             "RestSharp": {
@@ -192,7 +192,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
@@ -203,7 +203,7 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.14, )"
             },
             "RestSharp": {
               "target": "Package",
@@ -224,7 +224,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.54, 10.0.19041.54]"
+              "version": "[10.0.19041.57, 10.0.19041.57]"
             }
           ],
           "frameworkReferences": {
@@ -235,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

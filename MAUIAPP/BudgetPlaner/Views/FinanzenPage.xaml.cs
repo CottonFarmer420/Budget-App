@@ -19,7 +19,7 @@ public partial class FinanzenPage : ContentPage
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-        await DisplayAlert("Check", "FinanzenPage wird angezeigt!", "OK");
+        // await DisplayAlert("Check", "FinanzenPage wird angezeigt!", "OK");
         await LadeDaten();
     }
 
@@ -28,7 +28,7 @@ public partial class FinanzenPage : ContentPage
         try
         {
             var daten = await _apiService.GetFinanzenAsync();
-            await DisplayAlert("Debug", $"Geladen: {daten.Count}", "OK");
+            // await DisplayAlert("Debug", $"Geladen: {daten.Count}", "OK");
 
             Finanzen.Clear();
             foreach (var f in daten)

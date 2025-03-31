@@ -7,9 +7,6 @@ namespace BudgetPlaner
 {
     public partial class MainPage : ContentPage
     {
-        private readonly ApiService _apiService = new();
-        public ObservableCollection<Finance> Finances { get; set; } = new();
-
         public MainPage()
         {
             InitializeComponent();

@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BudgetPlaner
-build_property.ProjectDir = C:\Users\Maxis\Git\miniprojekt\MAUIAPP\BudgetPlaner\
+build_property.ProjectDir = C:\Users\Max\Git\miniprojekt\MAUIAPP\BudgetPlaner\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,43 +22,43 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/App.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/AppShell.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/MainPage.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Resources/Styles/Colors.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Resources/Styles/Styles.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/FinanzenPage.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/FinanzenPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Views.FinanzenPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\FinanzenPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\FinanzenPage.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/TokenPage.xaml]
+[C:/Users/Max/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/TokenPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Views.TokenPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TokenPage.xaml
