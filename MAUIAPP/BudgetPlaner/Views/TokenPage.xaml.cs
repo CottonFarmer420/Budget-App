@@ -12,6 +12,6 @@ public partial class TokenPage : ContentPage
     {
         Preferences.Set("api_token", TokenEntry.Text);
         await DisplayAlert("Gespeichert", "Token gespeichert!", "OK");
-        await Navigation.PushAsync(new FinanzenPage());
+        await Navigation.PushAsync(new AuswertenPage());
     }
 }

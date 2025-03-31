@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\auswertenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\auswertenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\auswertenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\auswertenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\finanzenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\finanzenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\tokenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\tokenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\tokenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\tokenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\finanzenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\finanzenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\views\\tokenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|solutionrelative:views\\tokenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC531E98-3DA1-4A39-BA41-37074797D755}|BudgetPlaner.csproj|c:\\users\\maxis\\git\\miniprojekt\\mauiapp\\budgetplaner\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,11 +65,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuswertenPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\AuswertenPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AuswertenPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\AuswertenPage.xaml.cs*",
+              "RelativeToolTip": "Views\\AuswertenPage.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:34:56.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuswertenPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\AuswertenPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AuswertenPage.xaml",
+              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\AuswertenPage.xaml*",
+              "RelativeToolTip": "Views\\AuswertenPage.xaml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T14:34:28.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Models\\Expense.cs",
+              "RelativeToolTip": "Models\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:23:48.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Models\\Budget.cs",
+              "RelativeDocumentMoniker": "Models\\Budget.cs",
+              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Models\\Budget.cs*",
+              "RelativeToolTip": "Models\\Budget.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T14:23:40.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -81,106 +137,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FinanzenPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\FinanzenPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\FinanzenPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\FinanzenPage.xaml.cs",
-              "RelativeToolTip": "Views\\FinanzenPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T21:17:36.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TokenPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\TokenPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\TokenPage.xaml.cs",
               "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\TokenPage.xaml.cs",
               "RelativeToolTip": "Views\\TokenPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T21:17:02.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\TokenPage.xaml",
-              "RelativeDocumentMoniker": "Views\\TokenPage.xaml",
-              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\TokenPage.xaml",
-              "RelativeToolTip": "Views\\TokenPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T21:17:00.18Z",
+              "WhenOpened": "2025-03-30T21:17:02.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Finance.cs",
-              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Models\\Finance.cs",
-              "RelativeDocumentMoniker": "Models\\Finance.cs",
-              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Models\\Finance.cs",
-              "RelativeToolTip": "Models\\Finance.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T19:45:01.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FinanzenPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\FinanzenPage.xaml",
-              "RelativeDocumentMoniker": "Views\\FinanzenPage.xaml",
-              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\FinanzenPage.xaml",
-              "RelativeToolTip": "Views\\FinanzenPage.xaml",
-              "ViewState": "AgIAAAMAAAAAMzMzMzMLwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T21:17:34.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Services\\ApiService.cs",
               "RelativeDocumentMoniker": "Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Services\\ApiService.cs",
-              "RelativeToolTip": "Services\\ApiService.cs",
-              "ViewState": "AgIAAAwAAABgZmZmZmYkwCwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Services\\ApiService.cs*",
+              "RelativeToolTip": "Services\\ApiService.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T19:49:09.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-27T11:48:03.42Z"
+              "WhenOpened": "2025-03-27T11:48:03.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAYAAABgZmZmZmYkwA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T19:54:54.354Z"
+              "WhenOpened": "2025-03-30T19:54:54.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "TokenPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\TokenPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TokenPage.xaml",
+              "ToolTip": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\Views\\TokenPage.xaml",
+              "RelativeToolTip": "Views\\TokenPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-30T21:17:00.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -192,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -204,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
@@ -216,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -224,11 +246,12 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T20:24:28.953Z"
+              "WhenOpened": "2025-03-30T20:24:28.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Maxis\\Git\\miniprojekt\\MAUIAPP\\BudgetPlaner\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",

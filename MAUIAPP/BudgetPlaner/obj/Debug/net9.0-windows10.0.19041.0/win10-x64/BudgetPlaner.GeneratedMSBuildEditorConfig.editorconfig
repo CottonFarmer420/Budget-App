@@ -52,11 +52,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Resources.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/FinanzenPage.xaml]
+[C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/AuswertenPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Views.FinanzenPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\FinanzenPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\FinanzenPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BudgetPlaner.Views.AuswertenPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AuswertenPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AuswertenPage.xaml
 
 [C:/Users/Maxis/Git/miniprojekt/MAUIAPP/BudgetPlaner/Views/TokenPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
