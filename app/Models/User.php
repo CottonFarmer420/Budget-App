@@ -47,8 +47,8 @@ class User extends Authenticatable
         ];
     }
 
-    public function finances()
+    public function budgets()
     {
-        return $this->hasMany(\App\Models\Finance::class);
+        return $this->hasMany(Budget::class);
     }
 }

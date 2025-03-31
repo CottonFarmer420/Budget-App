@@ -15,17 +15,11 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                </div>
-
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('monatsformular')" :active="request()->routeIs('monatsformular')">
-                        {{ __('Monatsformular') }}
+                    <x-nav-link :href="route('budget.create')" :active="request()->routeIs('budget.create')">
+                        {{ __('Neues Budget') }}
                     </x-nav-link>
-                </div>
-
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('finance.index')" :active="request()->routeIs('finance.index')">
-                        {{ __('Liste der Finanzen') }}
+                    <x-nav-link :href="route('budget.index')" :active="request()->routeIs('budget.index')">
+                        {{ __('Budgetübersicht') }}
                     </x-nav-link>
                 </div>
             </div>

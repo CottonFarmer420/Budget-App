@@ -5,19 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Finance extends Model
+class Budget extends Model
 {
-
     use HasFactory;
 
-    protected $fillable = [
-        'budget',
-        'fixed_costs',
-        'variable_costs',
-        'saving_amount',
-        'saving_target',
-        'debts',
-    ];
+    protected $fillable = ['amount'];
+
+    public function expenses()
+    {
+        return $this->hasMany(Expense::class);
+    }
 
     public function user()
     {
