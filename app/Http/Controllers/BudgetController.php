@@ -10,6 +10,7 @@ class BudgetController extends Controller
 {
     public function create()
     {
+        // Verlinkung auf View im Ordner budget
         return view('/budget/add_budget');
     }
 
@@ -35,46 +36,12 @@ class BudgetController extends Controller
         return redirect()->route('budget.index');
     }
 
-    public function addExpenses($budgetId)
-    {
-        $budget = Budget::findOrFail($budgetId);
-        return view('budget.add_expenses', compact('budget'));
-    }
-
-    public function storeExpense(Request $request, $budgetId)
-    {
-        // Validierung der Eingaben
-        $request->validate([
-            'category' => 'required|string',
-            'amount' => 'required|numeric',
-        ]);
-
-        // Ausgabe erstellen
-        $expense = new Expense();
-        $expense->category = $request->category;
-        $expense->amount = $request->amount;
-        $expense->budget_id = $budgetId;  // Budget-ID zuweisen
-        $expense->user_id = auth()->id();  // Benutzer-ID setzen
-        $expense->save();
-
-        // Zurück zur Budgetübersicht
-        return redirect()->route('budget.index');
-    }
-
     public function show($budgetId)
     {
         $budget = Budget::findOrFail($budgetId);
         $expenses = $budget->expenses;
 
         return view('budget.show', compact('budget', 'expenses'));
-    }
-
-    public function showall()
-    {
-        $budget= auth()->user()->budgets()->with('expenses')->get();
-        // Lade Budget mit Ausgaben (expenses) und gebe das als Antwort zurück
-
-        return response()->json($budget);
     }
 
     public function destroy($id)
@@ -107,6 +74,32 @@ class BudgetController extends Controller
         return redirect()->route('budget.index')->with('success', 'Budget erfolgreich aktualisiert');
     }
 
+    public function addExpenses($budgetId)
+    {
+        $budget = Budget::findOrFail($budgetId);
+        return view('budget.add_expenses', compact('budget'));
+    }
+
+    public function storeExpense(Request $request, $budgetId)
+    {
+        // Validierung der Eingaben
+        $request->validate([
+            'category' => 'required|string',
+            'amount' => 'required|numeric',
+        ]);
+
+        // Ausgabe erstellen
+        $expense = new Expense();
+        $expense->category = $request->category;
+        $expense->amount = $request->amount;
+        $expense->budget_id = $budgetId;  // Budget-ID zuweisen
+        $expense->user_id = auth()->id();  // Benutzer-ID setzen
+        $expense->save();
+
+        // Zurück zur Budgetübersicht
+        return redirect()->route('budget.index');
+    }
+
     public function editExpense($id)
     {
         $expense = Expense::findOrFail($id);  // Finde die Ausgabe
@@ -133,4 +126,13 @@ class BudgetController extends Controller
 
         return redirect()->route('budget.index')->with('success', 'Ausgabe erfolgreich gelöscht!');
     }
+
+    public function showall()
+    {
+        $budget= auth()->user()->budgets()->with('expenses')->get();
+        // Lade Budget mit Ausgaben (expenses) und gebe das als Antwort zurück
+
+        return response()->json($budget);
+    }
+
 }

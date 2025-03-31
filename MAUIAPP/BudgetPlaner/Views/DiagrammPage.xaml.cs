@@ -11,7 +11,6 @@ public partial class DiagrammPage : ContentPage
 
     public ObservableCollection<ChartData> BudgetSeries { get; set; } = new();
     public ObservableCollection<ChartData> ExpenseSeries { get; set; } = new();
-
     public ObservableCollection<Budget> Budgets { get; set; } = new();
     public DiagrammPage()
     {
@@ -19,14 +18,12 @@ public partial class DiagrammPage : ContentPage
         BindingContext = this;
 
     }
-
         protected override async void OnAppearing()
         {
             base.OnAppearing();
             await LadeDaten();
             LadeChartDaten();
         }
-
     private async Task LadeDaten()
     {
         try

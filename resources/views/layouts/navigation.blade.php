@@ -21,6 +21,9 @@
                     <x-nav-link :href="route('budget.index')" :active="request()->routeIs('budget.index')">
                         {{ __('Budgetübersicht') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('showToken')" :active="request()->routeIs('showToken')">
+                        {{ __('Dein Token') }}
+                    </x-nav-link>
                 </div>
             </div>
 

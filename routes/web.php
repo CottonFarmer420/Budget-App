@@ -3,6 +3,7 @@
 use App\Http\Controllers\BudgetController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FinancesController;
+use App\Http\Controllers\TokenController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -39,8 +40,8 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware('auth')->get('/token', function (Request $request) {
     $token = $request->user()->createToken('browser-token')->plainTextToken;
-    return response()->json(['token' => $token]);
-});
+    return view('token', ['token' => $token]); // Token an die View übergeben
+})->name('showToken');
 
 /*
 Route::get('/monat', function () {
